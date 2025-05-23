@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "9e217abc-8c35-46d4-9a5d-ad82002c77b0",
+		"name": "School Management API",
+		"description": "Collection for adding schools and listing schools sorted by distance",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31040272"
+	},
+	"item": [
+		{
+			"name": "Add Green Valley School",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Green Valley School\",\r\n  \"address\": \"123 Main St\",\r\n  \"latitude\": 34.0522,\r\n  \"longitude\": -118.244\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3.worf.replit.dev/addSchool",
+					"protocol": "https",
+					"host": [
+						"473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3",
+						"worf",
+						"replit",
+						"dev"
+					],
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Sunnydale High School",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Sunnydale High\",\r\n  \"address\": \"456 Oak Ave\",\r\n  \"latitude\": 34.1,\r\n  \"longitude\": -118.3\r\n}"
+				},
+				"url": {
+					"raw": "https://473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3.worf.replit.dev/addSchool",
+					"protocol": "https",
+					"host": [
+						"473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3",
+						"worf",
+						"replit",
+						"dev"
+					],
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Riverdale Academy School",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Riverdale Academy\",\r\n  \"address\": \"789 Pine Rd\",\r\n  \"latitude\": 33.95,\r\n  \"longitude\": -118.25\r\n}"
+				},
+				"url": {
+					"raw": "https://473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3.worf.replit.dev/addSchool",
+					"protocol": "https",
+					"host": [
+						"473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3",
+						"worf",
+						"replit",
+						"dev"
+					],
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add Hilltop Elementary School",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Hilltop Elementary\",\r\n  \"address\": \"1011 Hill St\",\r\n  \"latitude\": 34.15,\r\n  \"longitude\": -118.35\r\n}"
+				},
+				"url": {
+					"raw": "https://473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3.worf.replit.dev/addSchool",
+					"protocol": "https",
+					"host": [
+						"473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3",
+						"worf",
+						"replit",
+						"dev"
+					],
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Lakeside School Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Lakeside School\",\r\n  \"address\": \"2020 Lake Dr\",\r\n  \"latitude\": 34,\r\n  \"longitude\": -118.2\r\n}"
+				},
+				"url": {
+					"raw": "https://473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3.worf.replit.dev/addSchool",
+					"protocol": "https",
+					"host": [
+						"473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3",
+						"worf",
+						"replit",
+						"dev"
+					],
+					"path": [
+						"addSchool"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List Schools Sorted By Distance",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3.worf.replit.dev/listSchools?latitude=34.05&longitude=-118.24",
+					"protocol": "https",
+					"host": [
+						"473dd117-9df5-4f23-875c-c939b74557ae-00-38qfap7y3co3",
+						"worf",
+						"replit",
+						"dev"
+					],
+					"path": [
+						"listSchools"
+					],
+					"query": [
+						{
+							"key": "latitude",
+							"value": "34.05"
+						},
+						{
+							"key": "longitude",
+							"value": "-118.24"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
